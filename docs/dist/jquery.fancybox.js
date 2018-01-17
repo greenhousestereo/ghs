@@ -36,7 +36,7 @@
     var defaults = {
 
         // Enable infinite gallery navigation
-        loop : false,
+        loop : true,
 
         // Space around image, ignored if zoomed-in or viewport width is smaller than 800px
         margin : [44, 0],
@@ -62,9 +62,9 @@
         buttons : [
             'slideShow',
             'fullScreen',
-            'thumbs',
+            //'thumbs',
             'share',
-            //'download',
+            'download',
             //'zoom',
             'close'
         ],
